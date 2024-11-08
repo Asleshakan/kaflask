@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>My app</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='bootstrap/favicon.ico') }}">
+</head>
+
+<body>
+  <main>
+    <div class="px-4 py-3 my-2 text-center">
+      <img class="d-block mx-auto mb-4" src="{{ url_for('static', filename='bootstrap/images/image.jpg') }}"
+        alt="Logo" width="384" height="192" />
+      <h1 class="display-6 fw-bold text-primary">Welcome to The App</h1>
+    </div>
+    <div class="px-4 py-3 my-2 text-center">
+      <form method="get" action="{{ url_for('template_download') }}">
+        <div class="col-md-6 mx-auto">
+          <label for="name" class="form-label fw-bold fs-3">1. Download the Input Template</label>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center my-2">
+            <button type="submit" class="btn btn-primary btn-lg px-4 gap-3">Download</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="px-4 py-3 my-2 text-center">
+      <form method="post" action="{{ url_for('input_upload') }}" enctype="multipart/form-data">
+        <div class="col-md-6 mx-auto">
+          <label for="input_file" class="form-label fw-bold fs-3">2. Select the Completed Input File</label>
+          <p><input type="file" name="input_file" required></p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center my-2">
+            <button class="btn btn-primary btn-lg px-4 gap-3">Upload</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>

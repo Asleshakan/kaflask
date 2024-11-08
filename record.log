@@ -1,0 +1,643 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:50:08] "[32mGET / HTTP/1.1[0m" 302 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:50:08] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x7f,Áä2ßF')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:50:08] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x7f,Áä2ßF\x85·\x02L~,\x19ù\x90\x16"[\x02[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:50:08] code 400, message Bad request version ('\x00\x02\x01\x00\x00-\x00\x02\x01\x01\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:50:08] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03Pñ¸\x8bú½\x95 [8^¼i\x84¸\x90£uö\x19MÝGÙûÿy\x03\x1a·@e \x92\x1d\x8a\x1bób\x06+ xô öEâ\x14äe¿} ë$MRm\x04ùK\x0f\x1b9\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06SÚÚ\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00\x0b\x00\x02\x01\x00\x00-\x00\x02\x01\x01\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:50:31] code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06¥::\x00\x00\x00+\x00\x07\x06')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:50:31] "[31m[1m\x16\x03\x01\x07\x12\x01\x00\x07\x0e\x03\x03iB¼4\x819.\x7f¶?Ê\x88\x9e\x14³P£óL\x04ðÑ$\x9c k®\x1aF\x9d\x048 ú\x8aìQÆ7\x01Bé\x7f\x92±N\x06Û\x19\x05<O¿¥1~ZÄD#×°Zñõ\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06¥::\x00\x00\x00+\x00\x07\x06[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:50:31] code 400, message Bad request version ('ûü\x93ß\x19y\x8cÛ\x0f\x8d\x99\x92\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:50:31] "[31m[1m\x16\x03\x01\x07\x12\x01\x00\x07\x0e\x03\x03p;ìÓ¬\x84\x16VË\x04\x124Å¼0}\x1e\x81ÌCÁ¼ÔÔ°6urz\x07É0 \x02ÏøwÉÈ\x1e\x1e\x09ù\x85ë¾\x13O¡'\x80q\x0cûü\x93ß\x19y\x8cÛ\x0f\x8d\x99\x92\x00 [0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:50:31] code 400, message Bad request version ('ÿÃR')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:50:31] "[31m[1m\x16\x03\x01\x06ò\x01\x00\x06î\x03\x03þ Äfu}¿\x0c\x8fÔ\x89>\x1bT°i\x9a4¥À+üèÞq\x83ý~ïd\x0cl 3íO\x1fÿÃR[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:50:31] code 400, message Bad request version ('aaÄö/\x8a6g};ÒÉ¾Å')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:50:31] "[31m[1m\x16\x03\x01\x06²\x01\x00\x06®\x03\x03f]&â-gê\x17\x0e-\x98Îü÷~r\x85¿¦ÃËR¤»\x862Ú±\x15R«H íÇÂ\x90÷\x18å±¹ÁµR¢\x17\x19Øj\x09SwÂ\x17wxU^\x87/óP¿b\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06EÚÚ\x00\x00\x00\x00\x00\x0e\x00\x0c\x00\x00\x09localhost\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x05\x00\x05\x01\x00\x00\x00\x00þ\x0d\x00º\x00\x00\x01\x00\x01C\x00 \x85aaÄö/\x8a6g};ÒÉ¾Å[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:50:31] code 400, message Bad request version ('î?t\xad\x8a5\x00\x9c')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:50:31] "[31m[1m\x16\x03\x01\x06²\x01\x00\x06®\x03\x03\x8di¼\x81ÁÔxÂÉD\x8ajÅAÖH\x91c\x13Æ\x86¿hyh\x16\x84s>§ØX o¹W©ßq\x95ÉªÊídl\x09î?t­\x8a5\x00\x9c[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:50:32] code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06¥\x9a\x9a\x00\x00\x00\x12\x00\x00\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:50:32] "[31m[1m\x16\x03\x01\x07\x12\x01\x00\x07\x0e\x03\x03\x18\x84\x9c"~æ~V \x00\x97ø\x9c\x1eG7ÒXõW\x87¿~ðÝ÷m\x99|òXl 5p1¦±GØ\x92P®\x14\x1cKñïïAÑæb\x13_N\x99ß!ºN-øAÉ\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06¥\x9a\x9a\x00\x00\x00\x12\x00\x00\x00[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.124:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:09] code 400, message Bad request version ('ÿÀ(z1¶K\x19t\x7fQ\x9a\x97\x95')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:09] "[31m[1m\x16\x03\x01\x06ò\x01\x00\x06î\x03\x03ÌH"2ªG^­Û\x8b­òÇÜÿ\x96eî&\x94üßY×;W\x9eìÁ\x8c¨8 Òõ3~§\x18´ô@H1ÏÑwµ\x09jù²ÐYÇIÚ²]9È\x1eÇs\x19\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x85\x1a\x1a\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00+\x00\x07\x06ZZ\x03\x04\x03\x03\x00\x1b\x00\x03\x02\x00\x02ÿ\x01\x00\x01\x00\x00\x12\x00\x00\x00#\x00\x00\x00\x0b\x00\x02\x01\x00\x00-\x00\x02\x01\x01\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x17\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x003\x04ï\x04íêê\x00\x01\x00c\x99\x04À\x19\x9b¤\x04ù¬\x03¢Q\x17>\x8c\x1d"\x84\x80\x08Í\x16Vâ#\x10Á`}Æ\x85\x09ln\x17\x12ø­W8l'\x18^$\x05\x8cÒÑ\x06 ûsYØ:\x9dI\x1b\x8f)a\x1f4\x1d5²lÃG¼Æ\x91\x98Ìa:ú¥\x00«\x12§­\x81ÆÇjjî¡\x83\x96ò[l[1÷\x94>:Ñ\x03ÌL»¥\x86^Ì6¢h\x17¢\x06±ÌVy\x18\x93¢\x1eÿÀ(z1¶K\x19t\x7fQ\x9a\x97\x95[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:09] code 400, message Bad request syntax ('\x16\x03\x01\x06²\x01\x00\x06®\x03\x03')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:09] "[31m[1m\x16\x03\x01\x06²\x01\x00\x06®\x03\x03[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:09] code 400, message Bad request version ('\x00\x02\x01\x00\x00-\x00\x02\x01\x01\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:09] "[31m[1m\x16\x03\x01\x06²\x01\x00\x06®\x03\x03*m,õÒc\x81SØo\x9aÄôQvçÈ%Ë\x95\x9eN\x9e\x05?pùSW\x12$3 E¬7Æ\x13Äd\x0f´Ùºþµ\x03ô#\x8fF©ö×ÎaÄÀM\x86\x9e æ°)\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Eªª\x00\x00\x00\x0b\x00\x02\x01\x00\x00-\x00\x02\x01\x01\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:09] code 400, message Bad request version ('\x00\x02\x01\x00\x00#\x00\x00\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:09] "[31m[1m\x16\x03\x01\x07\x12\x01\x00\x07\x0e\x03\x03\x03á/ª0Ð\x05kÌS\x99¾\x0eÈë\x84\x17~\x05Ð\x9dC\x9bmÒÇKB\x86\x99\x07> ~\x98Ñ3Ùm8IóX\x00\x0e=\x1dtÔiÒÕ\x1bîÑ\x17¼âY9p½Çh½\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06¥ºº\x00\x00\x00-\x00\x02\x01\x01Di\x00\x05\x00\x03\x02h2\x00\x0b\x00\x02\x01\x00\x00#\x00\x00\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:09] code 400, message Bad request version ('b\\\x90ê\x9a\x98ÈfRÅÇÂ\x13t\x18ÇrÕ¥\x17]ð\x06?5ÈMYr×ÃZ\x00ª@8\x06\x82ÌÛ')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:09] "[31m[1m\x16\x03\x01\x06Ò\x01\x00\x06Î\x03\x03a!\x86\x13^à?\x19µ\x17÷£\x86Kýf\x8c\x0d \x1ceå\x18õ3GK¾\x18/\x1b\x10 ·;\x06\x06\x8b\x0d_´üD\x05\x97I'\x117m#\x05\x05£ÿ"ö°Ñ"\x98+!\x0c\x18\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06eÚÚ\x00\x00\x00\x12\x00\x00ÿ\x01\x00\x01\x00\x003\x04ï\x04í\x9a\x9a\x00\x01\x00c\x99\x04À{\x83¶Ë\x12¦\x7fÚg«#Ý\x8c\x103ò\x1fÞXÛë,a+\x84\x7fÞU¢\x93Üt\x8büW8º¸\x90Ë\x0fïiÎßÄ\x1e-{1b\x11\x15\x03"Êx¼[+K_\x97\x1a*-ð¾ b\\\x90ê\x9a\x98ÈfRÅÇÂ\x13t\x18ÇrÕ¥\x17]ð\x06?5ÈMYr×ÃZ\x00ª@8\x06\x82ÌÛ[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:10] code 400, message Bad request version ('w<\x01ò^zC°¸Ã\x18¬ëeÔ6\x00Á\x93§²')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:10] "[31m[1m\x16\x03\x01\x07\x12\x01\x00\x07\x0e\x03\x03\x90\x02­H\x86QA<\x1fwhñBXG\x05ìU\x9d¸\x8fCKãÝ\x18.\x1c«QØ\x04 \x9dø\x8cF\x0f\x81&Á³\x9eñ<\x9cêgýª=®\x86ê\x93\x1d\x07\x10ÑMïÒ±\x86\x85\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06¥\x8a\x8a\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x1b\x00\x03\x02\x00\x02\x00#\x00\x00ÿ\x01\x00\x01\x00þ\x0d\x01\x1a\x00\x00\x01\x00\x01\x90\x00 w<\x01ò^zC°¸Ã\x18¬ëeÔ6\x00Á\x93§²[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:12] code 400, message Bad request version ("Ë¶\x93ç\x9c'\x80\x12fX[±\x81\x08<J\x15bý>¬7\x83\x82\x9dÂ\x00")
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:12] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03ùÄy¦Ë}S¨z\x94#\x1cX\x1c´É\x1eòJq\x08Z\x03\x88NÞ?,\x8a\x1d1@ mSÍ5©s\x15ï#çº\x93Àb%ucCH"Ü\x12\x9c\x89\x8a¶ÿÈ)i_ö\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063ÊÊ\x00\x00\x00\x1b\x00\x03\x02\x00\x02Di\x00\x05\x00\x03\x02h2\x00-\x00\x02\x01\x01\x00\x12\x00\x00\x00\x0b\x00\x02\x01\x00þ\x0d\x00º\x00\x00\x01\x00\x01A\x00 ÞC3]÷Er\x06\x1b\x9f\x11üðAp\x0c\x0eP¿\x07¿mÈe\x01\x15ÖD,Äa|\x00\x90\x01\x96\x065¥þ\x18´\x8e:ü\x87H£Ç4\x8bDë°"ú\x16Ü\x1f"\x97\x06\x988Dº«\x0cª^ÓùÕø\x9feæ¸Ò\x94w\x032çÑC/\x0b\x1eËãÙ\x82/¢¼U]áÝ-½«\x12*Ú3}]ÿé\x9aA8¶)U\x00ó"ÂâÕ¥LÝ\x14\x8eNâ¾æ.ýÏó·ú@\x05y\x89-6;l]\x11ëGJ Ë¶\x93ç\x9c'\x80\x12fX[±\x81\x08<J\x15bý>¬7\x83\x82\x9dÂ\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:12] code 400, message Bad request version ('©¿b|Á\x0eeJì"R§:\x7fI\\\x9c\x92\x17g=Ñ')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:12] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03owOà»HÏÝ{3W\x8a\x99\x14ßºö\x07¥¿ê\x94!O\x8eÝú#c\x17ß\x08 &XÌ¬F\x86Û\x10±&î´}M¿èå®¼{8\x1eêÌ\x83r&¢+»Z\x1d\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06SÚÚ\x00\x00\x00#\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00-\x00\x02\x01\x01\x00\x17\x00\x00Di\x00\x05\x00\x03\x02h2\x00\x12\x00\x00ÿ\x01\x00\x01\x00\x00\x0b\x00\x02\x01\x00\x003\x04ï\x04íjj\x00\x01\x00c\x99\x04À¬óL9}0©þ;sèM`:³Á\x89\x8fä ¡ô5e6XÅxyé\x8fkw\x14\x144ÄÈü\x89&ØJ¶÷4\x9d\x969\x8fjT(s\x8bi.õÍaQ\x01\x9fGpi\x84\x92\x9dëª|y \x80©(\x01R\x82\x193\x19\x85©¿b|Á\x0eeJì"R§:\x7fI\\\x9c\x92\x17g=Ñ[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:12] code 400, message Bad request version ('³%\x16m(@\x9c1\x11¦ó\x18+\x7fçQ\x03\x16\x93p[¤YøVe\x13`ã')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:12] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03Æ\x94Ç)x\x89¨ÑVqÑl\x91h\x8a\x01Rü\x06Ùo\x06ï\x0eG¼°±ñ?\x99] \x1bj(¸j\x9flçç\x05£\x84ô%Q\x14\x9buÒRçÖ«Ù\x0e,¢i,+\x92C\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ªª\x00\x00\x00#\x00\x00\x00\x0b\x00\x02\x01\x00\x003\x04ï\x04íÚÚ\x00\x01\x00c\x99\x04À Í\x93\x9bõ\x8c\x1a\x8aÃïò\x91\x93\x82_Ð\x0cm\x8aÀxÊOþvbU*\x9eË°T\x83\x17\x00`V³Â|\x9cJADYJ%\x887<\x87\x0b³%\x16m(@\x9c1\x11¦ó\x18+\x7fçQ\x03\x16\x93p[¤YøVe\x13`ã[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:12] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00#\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x003\x04ï\x04í')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:12] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03·ñÅ]¿§©?\x95:¸´\x1a:Ö\x92±\x0f*ÅxÑv"\x16)\x10\x01Ê"Ð< ~%÷D\x09¶ÿ¯\x85&[ó\x09qQ%Õ¯>[^B\x93\x84F¯~\x10/×4\x90\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x9a\x9a\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x0b\x00\x02\x01\x00\x00-\x00\x02\x01\x01ÿ\x01\x00\x01\x00\x00\x12\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00#\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x003\x04ï\x04í[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:12] code 400, message Bad request version ('ó\x83W4¨\x96úaí\x84\x97B')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:12] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x18Hú©\x90ïØ ù\x05*oÀzð\x043\x91¤)´\x1b\x819¹u 6Jâä÷ Ì^(\x1a=ÑÝqN¾3:*Âaé\\¿³\x04\x0e\x0b\x0eÅÉÄ]ßî©\x887\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063ZZ\x00\x00ÿ\x01\x00\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x0b\x00\x02\x01\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x17\x00\x00\x00\x12\x00\x00\x003\x04ï\x04íºº\x00\x01\x00c\x99\x04ÀÒ\x18à\x9dW,úÉ)(ÍÎ\x9e¶ÐYû³\x88l²ë|yá\x15b©\x07$Z7þÄ\x05ùÈrÜ$(­ù\x13¼"V:ø\x9f\x1eò\x04uhYj8³\x83\x0c:\x00\x18:\x05Z\x94H+ªæ\x86\x88Å\x06º\x919ÂÂf"\x0e\x06uú\x0b\x86£ÔÀ\x1f¨k\x88ð²\x93r~\x97\x86\x84Ät\x8a\x99&»\x8b\x09CaF¸\x894c\x92\x8c\x8aîF\x9al\x18É\x0fÇ\x12&\x097GcUg\x11°J\x88\x9c\x99¨\x12\x17g\x9c\x17º |Ì¼Nø#\x9bÃ8òv\x00Ú\x83\x15¡æTÿ\x97n\x88À\x0cÚº=òhJ\x0dÖw) L8\x021ú \x07Pû\x7f²öVt¨\x97û\x08X\x1f³³F\x81\x82ZÊÎ÷\\¥\x81\x90\x91\\,º{Y dÒY\x87É±ò¹ªá\x16nw\x11=8ÇOk0e\x0eós\x88h¹ý¼\x81Qì­_\x1cLq\x86N\x8e±{÷x\x06"3'¾«u,¥Y>\x95&+(V¦{\x1f\x09ó\x83W4¨\x96úaí\x84\x97B[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:12] code 400, message Bad request version ('µQ\x98¶\x8b\x06\x94*l)Ü\x8a\x04h\\\x8c\x1b@\x04ú\x00\x94\x82Z»Pl\x8dº\x143P\x04È%$¿ª£PÀ¯%\x82#¡G:\x9cÜ\x05\x18Ó¥ðÇ,\x9d\x04\x1a')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:12] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03»t$\x1e\x8d%¸\x99dój\x0bÄ\x9a\x05°ª\x8cÀög/qE\x18uVg\x8eÝ\x03W \x1aAß1[bî\x86Â\x96çøCò×ÒX\x05Þä3U²¼îJ¶a\x1eÆ\x82\x0f\x00 \x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Szz\x00\x00þ\x0d\x00Ú\x00\x00\x01\x00\x01í\x00 Í=g£\x0f\x97\x8bËÐø\x9b\x0dASþ¢-¸Ö'ºÔ\x04Ï#Ãâ\x0fsu°]\x00°¨\x02óLÝÅI\x14c\x839\x0dê\x04¡\x19l\x05Ö\x8de\x90øó\\;\x95\x8e&\x95Üù{"Þ\x00¥+÷ví\x94R\x95º¶O\x95_Q0\x0bÜ\x87Íìë7\x00`x÷Òó\x8c?¾M<ÈÃ,\x8c`p\x19öq<%-ß>\x17óïÉÃ \x05\x93\x99\x93ñÂ~r\x06©3\x096\x93\x08l\x11m-õÂóÇbÅ$vA¿o9Rm\x85ÃÑÝÉ8\x1e\x98¡G¼>\x15ZdöæÐ8i³×Rë+\x7fPIh³{¶\x04\x8bçF\x9c½\x18É\x9c\x89¶ÞÌA\x98)ï\x98\x8c+´\x01\x00\x1b\x00\x03\x02\x00\x02Di\x00\x05\x00\x03\x02h2\x00#\x00\x00\x003\x04ï\x04íêê\x00\x01\x00c\x99\x04À¿gTõIý¿Áþ\x0fU^ó]wËUÇõ2ÅÁ¡m\x0f¬\x82M\x1e\x01ûRÑá°½,\x18F©f]Õ\x9füÂ@¢õl\x16à>\x0bf\x12Ð\x9aµ¢Ë\x9e·B\x1cd8WRr\x06©\x86\x87î6ÆEAK6 $Ù\x16\x18\x960<\x00Y¦'s'\x0e(µí\x18\x00\x8fg\x82 ¦d÷\x18n\x92\x98\x8chìF7ÈÇÛÈ\x0cµQ\x98¶\x8b\x06\x94*l)Ü\x8a\x04h\\\x8c\x1b@\x04ú\x00\x94\x82Z»Pl\x8dº\x143P\x04È%$¿ª£PÀ¯%\x82#¡G:\x9cÜ\x05\x18Ó¥ðÇ,\x9d\x04\x1a[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:14] code 400, message Bad request version ('B\\n?\x8ebQ\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:14] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x033\x84eçØ\x9eå\x057µ¦/ªýáXIµì÷ì±À!\x8c\x8eèÌU\x00\x00\x9e !Îë\x80xo¶õ\x94x\x9aÁ'ßFÚ\x07DoHw\x0cð\x17 B\\n?\x8ebQ\x00 [0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:14] code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sJJ\x00\x00\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:14] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03C8\x07\x18¼ÁË\x1a\x06\x0f\x90k?\x97h}\x9a\x88®®\x1dêÖ7¤¬\x8eI\x1bå\x86\x13 û8\x87öß\x9b\x15,dâ\x17SÓÌëüJZ2YÂÖ8\x8eà\x0f\x99Óh\x7f[]\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sJJ\x00\x00\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:14] code 400, message Bad request version ('Ö~\x12')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:14] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03Ê\x8a2\x19ÞF\x90T\x0e\x0d\x8aêN|\x86±\x02Þh\x8fe0N\x9e\x0f<\x09G4\x1511 ]\x8a\x049õ\x82n7ÿu:\x1e¶\x01\x7fÁ Ä\x18xöÑRh\x8aÿt§3N\x9b£\x00 zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sêê\x00\x00\x00\x12\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00-\x00\x02\x01\x01\x003\x04ï\x04íªª\x00\x01\x00c\x99\x04ÀÕ-.£iÄ'%\x99ãµ¤\x9aÛb-\x90znH¨ý=LCV7+Ú\x0cÖ~\x12[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:14] code 400, message Bad request version ("ZûÅ\x80ª\x06ÿËjLó\x17@'õSäM}\x87à\xadhù)\x03\x06ºë\x90ÊldpñSà\x16&\x8agR\x1bd¨ãín×Sÿ\x17Ä\x89\x02½¹³\x17")
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:14] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03Ä®Ò»ûS\x94©N[\x1a\x14ù\x8f#çÈ`Ð\x0f\x7f\x8fìÇ^6cã\x13NB¡ ëæ\x9b>z@QÂ78Ó\x1cc=õR\x1f#{\x18ááÙ*\x05\x1e:Ìñ\\\x83\x17\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ªª\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00-\x00\x02\x01\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00+\x00\x07\x06jj\x03\x04\x03\x03\x00\x12\x00\x00\x00\x17\x00\x00þ\x0d\x01\x1a\x00\x00\x01\x00\x01u\x00 ØziÿÎçÇ+ßmÈ\x93ÚXûÑBZ\x07\x06bN;\x88\\8\x06\x15/^_)\x00ð#K=66ÊãZ+\x94\x9eÇ\x0b§°¨\x05Ðn×&\x12ÒB«ýNüu\x1fè²\x9a\x0dYòÚa^\x87ë\x8f0:®\x84Û'oG¤TTæÞæ\x94\x7fYR\x0dvÌ1#¤\x0f/RÉ\x9a\x09£-¹\x1eZûÅ\x80ª\x06ÿËjLó\x17@'õSäM}\x87à­hù)\x03\x06ºë\x90ÊldpñSà\x16&\x8agR\x1bd¨ãín×Sÿ\x17Ä\x89\x02½¹³\x17[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:14] code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x1b\x00\x03\x02\x00\x02\x00#\x00\x00\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:14] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x91í^\x867\x03\x0e\x9d¡"ãá\x8e÷\x19B½\x12M R\x06¨\x92PR\x9fý\x84¼ÜÌ =/\x0bB¸¼Ï\x9a\x97L*0[\x8fdÄ\x1dþ\x8c©|¥áÄ8_\x81FÓ¼®_\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sjj\x00\x00ÿ\x01\x00\x01\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x1b\x00\x03\x02\x00\x02\x00#\x00\x00\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:14] code 400, message Bad request version ('\x00\x02\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00+\x00\x07\x06zz\x03\x04\x03\x03\x00\x12\x00\x00ÿ\x01\x00\x01\x00\x00\x1b\x00\x03\x02\x00\x02Di\x00\x05\x00\x03\x02h2\x00-\x00\x02\x01\x01\x00\x17\x00\x00\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:14] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03q\x93\x05%\x14ÂÁ\x0fÙ ¨õ\x89\x1d\x8b\x10¶r1ÌL!&ËRõÌ5\x15ü,ö ;í¤\x1c¸.ìF{<Gï¸\x86Ô/ß\x7fp(ú\x90zúä\x13\x82#®p¼±\x00 \x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x1a\x1a\x00\x00\x00\x0b\x00\x02\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00+\x00\x07\x06zz\x03\x04\x03\x03\x00\x12\x00\x00ÿ\x01\x00\x01\x00\x00\x1b\x00\x03\x02\x00\x02Di\x00\x05\x00\x03\x02h2\x00-\x00\x02\x01\x01\x00\x17\x00\x00\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:15] code 400, message Bad request version ('\x87\x88ÍÀy!Ñ\x9f\x95L\x0e\x01Y\x977o')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:15] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03Hól¾\x1c\x07Ð­-\x87¡¿\x93oc²ø \x1f\x059\x15ûÛSó/È_7~[ Ò\x0cÝ19×sv±z\x04û\x9fh4|\x0dÒP\x8bkRTü(º\x14÷\x9eIT©\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sêê\x00\x00Di\x00\x05\x00\x03\x02h2\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x0b\x00\x02\x01\x00\x003\x04ï\x04íÊÊ\x00\x01\x00c\x99\x04À\x88£\x94µ¦\x7f\x13c$\x8f\x97¡\x8cV\x0d\x87\x88ÍÀy!Ñ\x9f\x95L\x0e\x01Y\x977o[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:15] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Szz\x00\x00\x00\x12\x00\x00\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:15] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03,i\x90®\x1c4\x17À¯\x8b0^ÁnÓc\x10vWÑ\x04¯¡\x9cÈFkìF,¶Ý X®UUõÓ\x02Òw¤\x8c¤hH\x19¼ø'5¢\x0c\x11\x83\x91ì\x8fo]\x98\x0eº\x0f\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Szz\x00\x00\x00\x12\x00\x00\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:15] code 400, message Bad request version ('ÌË\x07Cnàê*\\Ù&9KhT\x12¸q6r¦õ')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:15] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03F\x9cÊÄHÖìÒ\x90Eýè\x81\x99ì\x8f\x02wJJÉÄ#/d)W"[\x80\x0e­ Hì\x1añ\x97¦\x11&§wé\x0f\x01ëð¡­\x9a=×-\x99ý¾\x97·ºIa\x9f]\x9f\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x8a\x8a\x00\x00\x00\x17\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x003\x04ï\x04í\x8a\x8a\x00\x01\x00c\x99\x04À\x85\x8a¢ýÎ\x960C\x8cÁ@\x06Ká¦ÿª\x89mR\x03Zü\x07¥@/ÛgÅÓm@Tx\x9fÁ\x82\x86ÅÊ\x06**\x85ÌË\x07Cnàê*\\Ù&9KhT\x12¸q6r¦õ[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:15] code 400, message Bad request version ('\x9c\x91å-\x95ÆÍî§a\x80\x87óDM\x97¹»\x1b¤â\x9e\x80ðí\x16z')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:15] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03søeÜUiÞ\x03à?V\x97ë´êë\x11\x06\x8fîJ\x8b\x10¦0Ëh\x8cA·Dg ç]>9\x83Þ¤Ô\x8ax®\x04±õ\x93*í\x8au9wz§C(Óø¾¦Ð}å\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06SZZ\x00\x00þ\x0d\x00Ú\x00\x00\x01\x00\x01ª\x00 Û%\x13\x19õwP\x10À!\x1c\x18£\x08¨UÈiÜ\x07|YW%0\x0e\x90w)ëÿ\x06\x00°jHJÙ¿\x8aFi\x17¹\x13ñÚÒ\x08¸úð$\x801AÆÕ\x02Â­h3\x9e\x12¯ò12¢F+w\x85\x9c\x91å-\x95ÆÍî§a\x80\x87óDM\x97¹»\x1b¤â\x9e\x80ðí\x16z[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:15] code 400, message Bad request version ('Õg\x114zÃ\x191\x83\x83P\x04oV_hb')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:15] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x035Îl(4«^\x05·ÛR\x15LÐ®\x0fCF)Ò½ñ~\x80À¬Ý\x8f[í\x01¶ ¸å$\x1b,\x98à\x8fªz?\x87¤\x14¼ÒÁU\x8f/,©uÄ§\x8e¤zE\x1c\x10\x08\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x8a\x8a\x00\x00\x00\x17\x00\x00\x003\x04ï\x04íZZ\x00\x01\x00c\x99\x04Às\x08d\x12ò\x81\x9bóÇg°\x81¶\x9c©\x9e\x9d0e¿\x9f8,'\x86\x16r¿nÇÀM\x89#\x91-Õrôé\x85=g±)\x00¡_¢A\x99\x85Y&òGfh\x8cC8$'\x8c{\x7f6.ëÁ Íå?\x81e Y©Kô\x80¬\x9e´\x94\x86\x9cs."\x13ðä\x11y\x01)CÃn$\x05\x9f\x12Â=­(A'9¬CÆ[\x95Ð¹\x1cYÊ\x16!z\x81õ\x07ñgAÓ\x16/XL\x04\x17\x95Í\x8bS\x84Ý4Y\x18\x87!{)\x04ê¹Ë-QRöLM\x17\x15¦T\x81Â\x99¤«L\x18r¯ªÂb±Ïâw\x06M¡\x10a\x82¿S¨f\x0b;©\x08ÐyÍá Õg\x114zÃ\x191\x83\x83P\x04oV_hb[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:15] code 400, message Bad request version ('9³×´[6X2\x113û>Y\x95©ü\x01>´AÌýR\x8d6Ú\x03Î"-Jc\x00Ðmzf\x01O2ô¤¤òaL^.%\x89\\ä\x8e\x12\x19í2Í\x02\\Ê')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:15] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x07\x03¿tÊÂtVÊ§Ø/\x97\x00À}!_4\x88\x88·¯\x98\x8dvTÉ|$§@ r\x1d=\x07l¯\x91f\x03î\x97y\x97F)ª\x15\x11${é®««\x82·SQÐ*\\ñ\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sZZ\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x17\x00\x00Di\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06úú\x03\x04\x03\x03þ\x0d\x00ú\x00\x00\x01\x00\x01µ\x00 9³×´[6X2\x113û>Y\x95©ü\x01>´AÌýR\x8d6Ú\x03Î"-Jc\x00Ðmzf\x01O2ô¤¤òaL^.%\x89\\ä\x8e\x12\x19í2Í\x02\\Ê[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:17] code 400, message Bad request version ('¡Ï\x0fU3\x13.\x01\x13f\x17ðú¡oÍ8DB4ÿÈ\x81\x18\x08éM³©Êo<éÏ9ÃÆ\x17f')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:17] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03ZÂeFçO\x8bhV7§bÛúÂ¿¶½ºq\x17~P\x1d»áÉ;¥v§\x85 \x08 V%\x80Á\x98[ÎÅ\x9a\x93\x019Ð5ö!â"u>÷\x806\x96¥üs\x14\x04ø\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063ÊÊ\x00\x00þ\x0d\x00º\x00\x00\x01\x00\x01\x95\x00 Ù\x80\x9a¨Þo¸cHµ×´¢§o!B[ì@~\x85ã\x1d\x8e-RùæE\x06<\x00\x90h5üêõø\x1cétNf­ô`\x92àûWF\x9f¾ô\x98Ax$°ÿ+°]É9J\x03¥iàì\x087\x82êî_{\x90\x8cäë\x909ÓGï\x99ææ`\x0bþB\x09¡Ï\x0fU3\x13.\x01\x13f\x17ðú¡oÍ8DB4ÿÈ\x81\x18\x08éM³©Êo<éÏ9ÃÆ\x17f[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:17] code 400, message Bad request version ('Á\x9bB¯"µÒÂ\x94úGÝE?.\x9c9')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:17] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03òkÚ\x87\x7f\x95ZµÉÊ&Ý\x9b%îù\x0858b\x90\\÷ï\x97à\x82Jm\x89\x1a\x8b Á\x9bB¯"µÒÂ\x94úGÝE?.\x9c9\x0c[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:17] code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063jj\x00\x00\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:17] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03u¥mõ\x11\x07&v\x17\x7f\x98\x0d¸6X$|\x06`Ö\x90\x96øë\x12øD\x10K×\x9d¥ ¥Å%\x0d±@\x85Ú·\x8e3\x19|éA\x88\x06P±\x12n4ñÂd5); }O\x94\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063jj\x00\x00\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:17] code 400, message Bad request version ('#\x97}\x039®ât\x91\x95¤')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:17] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03j\x1a\x97¿Pdi\x85Ýd¿¬:\x7fèÑVaùÁÿ§t(5a\x82-[ß\x1f´ ~H\x8b9÷\x0bü\x06\x99Ä\x17ÏÁ\x98WKªôcá\x1c*¸c÷L\x81o=ëy¨\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x8a\x8a\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1ÿ\x01\x00\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x17\x00\x00\x00+\x00\x07\x06**\x03\x04\x03\x03\x003\x04ï\x04íJJ\x00\x01\x00c\x99\x04À\x8e{Rêä÷#»ÅðXEÿ·JÂ\x8f\x08\x97é%¬·qÜRqÕ\x8dYM\x15»Ìp\x16ë:ÛtÄ\x0c#\x97}\x039®ât\x91\x95¤[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:17] code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93**\x00\x00\x00+\x00\x07\x06')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:17] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x02À\x9a.KÇÃ\x18eÁ¾Â\x94\x9f\x97è`©OÏ{Õ·#Û\x1d\x03,Éº\x14® \x94_êéZ{­ûã\x1b\x98h\x94R¥\x07ae\x80Ò¬8\x90Fè4Ö\x8fÝ,_Õ\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93**\x00\x00\x00+\x00\x07\x06[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:17] code 400, message Bad request version ('´&í\x1a')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 08:53:17] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03ü\x823\x98ë\x18ýE5\x1aºúßá»\x00F\x0b²hi\x9faå­\x11`²!\x8b(\x09 ´&í\x1a[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.124:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:23] code 400, message Bad request version (']\x91\x83WH`?\x80')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:23] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03m\x13\x0fSÖg\x01GÇ\x9b\x80\x18\x8d\x04\x9b®ò\x14O/×\x17\x1eÓ\x81\x15å¹9ý·ß P\x88Ý\x931,\x04¤e¡¥Âw\x91p<gî;èÑ\x93\x0cBó¢\x9f¾É\x98È±\x00 ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ÚÚ\x00\x00\x00\x17\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x003\x04ï\x04í\x9a\x9a\x00\x01\x00c\x99\x04Às\x16\x91rÝÂw!$æ½\x12G¹á\x8b\x11¿TTihþIÊÑ§\x8c[e¨i"\x82¼EÛg^\x08\x1cS¦S÷ä1!:\x00L\x06"àÐ¿Ø©o\x0dtb\x10j·\x1a8@]\x13\x1b\x99G\x1aî3À­\\9"\x14\x84(Ð\x94a³\x1d÷GVïrÈ\x16ð0#\x0cvójA\x91\\\x09]\x91\x83WH`?\x80[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:23] code 400, message Bad request syntax ('\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03¿\x8er¿_\x83\x0f\x93KIøn')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:23] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03¿\x8er¿_\x83\x0f\x93KIøn[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:23] code 400, message Bad request version ('ÎJ')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:23] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03CB½A®ÁÆ2CëlæO$þ@ómK?\x05ÐÁ\x80V?¼\x1fnÄAß éa=æd·iz\x0e \x9a~Í\x9b6Lº=¨· ß\x95\x07tÀç\x8ay\x0b\x10X\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06SÚÚ\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00-\x00\x02\x01\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x12\x00\x00þ\x0d\x00Ú\x00\x00\x01\x00\x01ë\x00 N¿Gt\x8e\x03Ö\x900\x01\x14ÕÜk\x0b+°±c\x81\x91¶wt[p½\x7fÿ\x9e~\x07\x00°¾õâ©íöçhb:Ë¾KuI\x17º\x90\x19RËU.H3>\x1dÑdï¨Ó3ðû\x9dUòôdÑ\x91*Edå\x81T:E(Ê6[j\x0dÎJ[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:23] code 400, message Bad request version ('jF&\x95@"(G+ZvU')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:23] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\\\x1b>ý\x89ë\x8d=\x96QÂ\x08\x04íÄ\x06\x08­Ãæ@ñ\x7få\x8a­Ü$*®[¤ ñ@1±¿\x90)\x09âË°¼éM\x7f\\@6ß<Vø¤]¼\x16MceåüÛ\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063ºº\x00\x00\x00\x12\x00\x00\x00\x0b\x00\x02\x01\x00\x003\x04ï\x04í\x9a\x9a\x00\x01\x00c\x99\x04ÀÏÈ\x92JJÇ\x89R>@3\x91x«\x1fXÒ\x17d¾è\x1f\\ÕÒ\x13\x1bv#©ü\x1c4ã\x92MÖ\x9b{x&\x85jF&\x95@"(G+ZvU[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:23] code 400, message Bad request version ('þ\x86>\x07ÔDø¹õE\x90\x8ca\x8esÚ\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:23] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03u¨\x9c³¬£h|>ß\x06:\x92p&á¶\x96wµÍ\x1e@<Ü7\x96Wò\x84vÓ ÞÝ\x1fúýWBÖ¡g$"\x9e\x01\\\x0bþ\x86>\x07ÔDø¹õE\x90\x8ca\x8esÚ\x00 [0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:23] code 400, message Bad request version ("á\x01\x99\x14!\x97'ÂÝØ·°â_\x14")
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:23] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03sU¾zýÝ]}\x8e¯B´\x98Vµ\x8agNäÁ\x06NºÃÔ\x9fÀý`¸ÜT »I\x17 \x82\x01\x05áP%µj9\x0e½W¬9¥\x82q\x996\x8bæ­êaM\x19µâ\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063::\x00\x00\x00#\x00\x00ÿ\x01\x00\x01\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1Di\x00\x05\x00\x03\x02h2\x00\x17\x00\x00\x00+\x00\x07\x06JJ\x03\x04\x03\x03\x003\x04ï\x04í\x8a\x8a\x00\x01\x00c\x99\x04ÀÏ\x82²>Þ\x17\x04ãÈ\x9e<CÃ\x96}\x1d\x9c©þ8S\\GN\x8c\x94Õ.+ÌÌ\x1b0"\x83Ë\x95¤\x08e\x03\x14\x14¤z«8lyu`\x97WìÄ¬vÚ(\x80äjde\x07\x99É w\x04Â\x8fE^=UU ¤\x16ý9\x94\x98©\x03hâ?Ù·)ØJ:Gy4\x8bÄ:^¶6v\x17\x06Ä\x19VÑw\x86\x1all\x16\x89Ï\x09á\x01\x99\x14!\x97'ÂÝØ·°â_\x14[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:24] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01Di\x00\x05\x00\x03\x02h2ÿ\x01\x00\x01\x00\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:24] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x038"\x05¼Ìµ\x86 |<m2[L2ë­#¨\x08fáÕY\x91±ÃÓÈÔ(Ð Ù\x18\x1ek¤\x88+Ó7'\x1aÿ1\x88y¥\x99:\x16°q)Ïµ-fk2ß\x9bÑI\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063\x9a\x9a\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01Di\x00\x05\x00\x03\x02h2ÿ\x01\x00\x01\x00\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:24] code 400, message Bad request version ('Å!\x00\x90?L\x994ùXth®¥\xadÞO´º=hó\x9e')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:24] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03G¦\x95ºj²\x88E2\x11slØ¯(ÂÝ­³`3ÌÞì8CÏJ\x92\x8d\x18p \x9eå\x02{ gKáÑ ´÷m*\x8aìI\x81Û]\x95cÝ\x1dÄ\x05ÁM{_~O\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063úú\x00\x00\x00\x1b\x00\x03\x02\x00\x02þ\x0d\x00º\x00\x00\x01\x00\x01~\x00 \x86i¥\x9bsÊ\x87lÈ~a7ü@v\x1c/Ð\x8d\\\x1fÉ²ó\x0cZì)h Å!\x00\x90?L\x994ùXth®¥­ÞO´º=hó\x9e[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:24] code 400, message Bad request syntax ('\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03Å\x01F')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:24] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03Å\x01F[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:24] code 400, message Bad request version ('\x14\x80É\xad2lx<f¹\x9eã\x84ôÉ@ê')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:24] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\\iE\x09Æ¹ì\x17`³$\x8fF¹¨S÷¡¦ù.§aùj\x84\x1aÖôgêì $\x1b#\\\x89\x9a*åÔ\x82\x98Ù3 \x9b¤o\x9eRñ\x8e¤¦m?úî\x13;U\x16]\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063ÊÊ\x00\x00\x003\x04ï\x04íÚÚ\x00\x01\x00c\x99\x04À<ì¡\x8c\x18\x13\x17KÝéÃÜ\x98f\x09j|ÇË^Æ\x0e\x8f\x81ÝV\x15¬\x9c6NB%¤"N¹D\x14³k\x0f¬©>*¯|üx>¶3pCYÖ\x14sÒ\x81§\x0d¹\x7få÷\x82\x8b\x9b\x9d¢\x983tª\x9aâ\x09/\x18Ø^¬q¼Þ%\x0c\x82\x97Q$ÉA\x18èÍ\x95&S\x0cëQ¸âÍ\x0e+UÍ6´×'\x06~\x1ct\x95æHË\x84kô\x85Àû(\x00\x15á\x8e\x9eâ\x92\x7f\x06«:Ñ~\x00q$P©¶wÙÀ·\x96T¢\x89\x90\x9aú\x8e§»\x86ËðG\x84q8Jôa£\x95ièv|Ú+¹\x08\x0cP\x98\x0chzÑ\x9d\x16â,\x12kj§È\x19B°CÚ\x96UÉô\x92\x93ò\x95\x10¡H¨Éº\x87\x16±éL`G\x83\x0eþ!¯Ltpÿ\x84\x10\x03ä\x09\x9d\x90W5\x0b\x8e[Z\x97ØÜG\x91ö\x0bç¬\x80äqÁ\x11XJÛu\x0f\x9e\x1a\x15L\x8ay\x03å?\x93\x1b¼ñ\x84#\x05©k\x1a[\x9f\x0dòÄ¨¹\x7f\x0b\x08\x08FG rÊ`ÈE\x81U\x15Xï\x03\x9f¾)^g\x93O\x19\x0c\x14\x80É­2lx<f¹\x9eã\x84ôÉ@ê[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:24] code 400, message Bad request version ('\x02h2\x08http/1.1ÿ\x01\x00\x01\x00\x00\x17\x00\x00Di\x00\x05\x00\x03\x02h2\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00-\x00\x02\x01\x01\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:24] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03Ñéo\x8czH\x09ð\x9f6^j, e/\x9e%²3¨¶°{Ý~\x09\x9bþ2ÉÃ ¾'\x87\x11_P®s}\x8eZóéåÂ&rl\x8cÑ?HÁqÿ`\x19\x9dZÜ>\x9f\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93JJ\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1ÿ\x01\x00\x01\x00\x00\x17\x00\x00Di\x00\x05\x00\x03\x02h2\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00-\x00\x02\x01\x01\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:24] code 400, message Bad request version ('\x00\x02\x01\x00\x00\x1b\x00\x03\x02\x00\x02Di\x00\x05\x00\x03\x02h2\x00\x12\x00\x00\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:05:24] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x96kÁ_W+M"¥0Öý\x93r\x03\x12Ê±Vn£%9âï<z\x14¢z½\x08 Ø\x0d\x89øsê\x1cwÊcÀ[¼Ê\x90J\x99Ô£Ýùm@TÓ§9Î°5óé\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sZZ\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00#\x00\x00\x00+\x00\x07\x06úú\x03\x04\x03\x03ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x00\x0b\x00\x02\x01\x00\x00\x1b\x00\x03\x02\x00\x02Di\x00\x05\x00\x03\x02h2\x00\x12\x00\x00\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:21] code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93zz\x00\x00\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:21] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03B¦LAç\x85¨üÝ²Ò8À§¯cæ¯\x9e\x93~´\x89\x8a«2ß\x12m\x92\x83\x8c hÁÆG&ù{\x93µ,^â¡s\x88ÕBñ\x8a?\x04Tõ\x8b\x83}s\x04/HNa\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93zz\x00\x00\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:21] code 400, message Bad request version ('6\x9b')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:21] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03¬©!ÄU\x89Î\x91êeY«ºdz<¥ì\x07Úâ\x8eù9\x8dÓ\x97¼Î¿ZÔ Ë\x8exé"\x0d]'¼-ãýW\x1f6\x9b[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:21] code 400, message Bad request version ('\x00\x02\x01\x00\x00\x12\x00\x00\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:21] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03p½\x1a\x98\x0b<ò©Û×ã\x0dMú\x91õëY»Õ\x0e\x094øUä\x1d¡«\x13\x92| ,YÐ\x9cú¢Óë\x1a­\x1c³\x0bR±è<\x9a\x0d\x19{P\x9fäaÆ\x1c£Øàí}\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S\x1a\x1a\x00\x00\x00\x0b\x00\x02\x01\x00\x00\x12\x00\x00\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:21] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:21] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03 °\x00J\x15ao÷ \x93CY×Ü îÕÓÊP\x96ô^\x94RÖg\x09aä\x87Ñ 2ÍK¸\\å\x9c\x00¢\\3I5³sÙ¯·`Ð÷\x19çJð5o\x88Nic¼\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sZZ\x00\x00\x00-\x00\x02\x01\x01\x00\x12\x00\x00\x00\x0b\x00\x02\x01\x00\x00#\x00\x00\x00+\x00\x07\x06ÊÊ\x03\x04\x03\x03\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:21] code 400, message Bad request version ('y\x01\x7fÑì¤ô\x93Å£èF©Õ.\x06Ö\x10ì')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:21] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03ÿÖ\x0b»ë`7*Z\x01$XÿÔäF;Da$n²o\x14üÉ]\x1a\x8f)zã ò\x0fËÏàxó\x1fM¥\x82ÛôÓ\x84U¾æÈñHS¬wOþüÆ$\x9e\x0f\x04\x00 \x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93êê\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00ÿ\x01\x00\x01\x00\x003\x04ï\x04í\x1a\x1a\x00\x01\x00c\x99\x04À\x8b\x800°£~Ðö\x13ÍéVÇ\x10ì`Í«'8³m_\x18¶U\x18\x81\x06<þ3\x00é°BK&à\x88\x84\x12ÊÄ×S\x08Qõ\x0dùûÇ\x1a1).fr0Ø¸Kø0¨FO²\x98së:Q\x9eX¡Ã\x87\x9c*E\x0eÏSj\x89£¢\x04\x18\x7f¾¡½íê0?lRåYÌ18£Óû \x9e\x18\x09y\x01\x7fÑì¤ô\x93Å£èF©Õ.\x06Ö\x10ì[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:21] code 400, message Bad request version ('¤')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:21] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03ÞZeR\x157THÿf\x82qÀ\x08\x90\x8fH\x13]\x954\x9d\x8fd\x8aÅò¥Q¥ÅÆ \x0bÕ+ ÷\x93Ë\x98\x16ôªR³Âñ\x09M£.}õÕeµ½ù×ý\x82÷\x07\x1f\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x1a\x1a\x00\x00\x00+\x00\x07\x06jj\x03\x04\x03\x03\x00\x1b\x00\x03\x02\x00\x02\x003\x04ï\x04í\x9a\x9a\x00\x01\x00c\x99\x04À\x13éKþ\x1e¤[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:23] code 400, message Bad request version ('\x00\x02\x01\x00\x00-\x00\x02\x01\x01ÿ\x01\x00\x01\x00\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:23] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x99¸~ÏÑò\x08\x8c F¼ËHÒ¤Æ:\x9a\x9d8\x1b[q\x17\x07\x94É·³4£Ó Fã\x12|`JPï\x7fgNr\x8c¥ë)\x9d\x8bÁè\x9c­\x97Áìû¦\x97t_öi\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x9a\x9a\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x12\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x17\x00\x00\x00\x0b\x00\x02\x01\x00\x00-\x00\x02\x01\x01ÿ\x01\x00\x01\x00\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:23] code 400, message Bad request syntax ('\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x1a¿Éq\x07=Â')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:23] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x1a¿Éq\x07=Â[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:23] code 400, message Bad request version ('½Z¯\x83\x98å¬3ÏØ')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:23] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03;\x8e0Ñ\x11ç¡IEV\x9d\x13åÎ\x91â\x14CC´eT¨\x17H\x0bèh#\x83Î\x8f =\x80-p¦­y\x83Ëwº5HÖ\x8c\x98±ÚÏ\x8b3\x98P\x93û¤Õ»7\x19¢\x86\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sªª\x00\x00þ\x0d\x00ú\x00\x00\x01\x00\x01k\x00 ð \x09n¨À\x82À=¡oî>L±[u\x19'Ëï\x19Ô\x16D\x856§\x10"\x8er\x00Ð\x16 mg@Ô\x85Ðw\x9eOhÑxÈ\x9eÌ\x95\x14âEÄô="\x80\x1e*\x84\x96\x8fÇ5¨Ö\x94û \x9f÷\x1b\x15÷yÀµ~¶×ÕºIÃ°¨Á0\x18\x19\x1cÆi\x16\x14Õ\x82\x87vºä`¯¡Êå½×\x0b\x11^Í(\x90cñ g«\x99`Dmi7\x8d\x9aMáéî\x1e^åU\x02i\x8a/FØÊ\x9c»\x19sÈå\x0eªÎ\x84r^h\x9ee¯Z\x8aå\x9b£v\x1d\x1a ½Z¯\x83\x98å¬3ÏØ[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:23] code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063úú\x00\x00ÿ\x01\x00\x01\x00\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:23] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03rlSé»ÚøÝ¸¦ÇÉÍI\x0cXÛeK\x1dn\x1a¢\x89\x11i4\\\x8e:Æ\x8c |Å\x09\x86\x86cäá\x08 ZÑ=µYÅ(C]êÌ\x8f\x85¡£üàéçFæÎ\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063úú\x00\x00ÿ\x01\x00\x01\x00\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:23] code 400, message Bad request version ('}·ÏV_ÜõÊw¿x-ÒaÞ¥OÅÅá\x14|\x0e')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:23] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03Þ%ïygc\x00\x89\x9e¤1>0\x98P\\\x1ft Z|«ë\x1b\x90\x0e\x85Y¢\x84\x8f\x98 \x16\x85+¯\x0b0\x19ÆÇgÆù¡a\x99\x9dùvß\x9aÝ\x11R\x88\x8cåAW\x1f\x16f¶\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sºº\x00\x00\x003\x04ï\x04íJJ\x00\x01\x00c\x99\x04À!¦À\x00m®\x09}·ÏV_ÜõÊw¿x-ÒaÞ¥OÅÅá\x14|\x0e[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:23] code 400, message Bad request version ('6Åòõ\x07Ô\x1b1ì®SÍ9dùÒß\x05´\x94\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:23] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03Â~©ËdÒÉ4F·\x9ba+<¿\x87Ï|¹Ñæº2\x0eÇ\x18É¬\x8bÕ\x08; _l&Y\x01_VËÝè\x00\x0d6Åòõ\x07Ô\x1b1ì®SÍ9dùÒß\x05´\x94\x00 [0m" 400 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:43] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:43] "GET /static/bootstrap/htmx/htmx.2.0.3.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:43] "[33mGET /static/images/image.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:43] "GET /static/bootstrap/htmx/hyperscript.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:12:44] "GET /static/bootstrap/favicon.ico HTTP/1.1" 200 -
+DEBUG:app:Request for input upload received
+DEBUG:app:File type not allowed
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:13:14] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:13:15] "[31m[1mGET /input_upload HTTP/1.1[0m" 405 -
+DEBUG:app:Request for input upload received
+DEBUG:app:File type not allowed
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:13:18] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:13:18] "[31m[1mGET /input_upload HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:13:22] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:13:22] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for template download received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:13:51] "[33mPOST /template_download HTTP/1.1[0m" 404 -
+DEBUG:app:Request for favicon received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:13:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:13:55] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for input upload received
+DEBUG:app:File type not allowed
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:13:58] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:13:58] "[31m[1mGET /input_upload HTTP/1.1[0m" 405 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:14:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:14:03] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:14:03] "[33mGET /static/images/image.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:14:03] "[36mGET /static/bootstrap/htmx/hyperscript.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:14:03] "[36mGET /static/bootstrap/htmx/htmx.2.0.3.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:14:03] "[36mGET /static/bootstrap/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:14:03] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:06] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:06] "[36mGET /static/bootstrap/htmx/htmx.2.0.3.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:06] "[36mGET /static/bootstrap/htmx/hyperscript.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:06] "GET /static/bootstrap/images/image.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:07] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:07] "[36mGET /static/bootstrap/favicon.ico HTTP/1.1[0m" 304 -
+DEBUG:app:Request for input upload received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:16] "[35m[1mPOST /input_upload HTTP/1.1[0m" 500 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:22] code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:22] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03__(\x9bôû\x13YÅò)aÿÝV=\x1dX\x9f\x05pN¢B\x0dG5¥\x0b9*\x82 ´ö\x8eýóD¹¨<Ù;Ì7\x93gÌ.Ýü-Ú\x9apïaÿÕ\x92¿\x8c»µ\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:22] code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sªª\x00\x00\x00-\x00\x02\x01\x01Di\x00\x05\x00\x03\x02h2\x00\x17\x00\x00\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:22] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03Ð)c\x18*BdÝ\x1cû\x11\x9f\x18}\x80\x12ºA\x96\x81Þ¸ñ\x9e´P{È®Ã@W \x1axûXl\x158-/6$hV\x92"E\x1dr\x86\x84\x07ù\x83z\x1eæX\x19E\x02«w\x00 \x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sªª\x00\x00\x00-\x00\x02\x01\x01Di\x00\x05\x00\x03\x02h2\x00\x17\x00\x00\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:22] code 400, message Bad request version ("03m\x00\x90b>\x8f·ßÊ\x8cÓµ\x0fhDlZ¶Is-Bð¶@<ÃÉ¹B\x90F0\x05ã¶\x94¿Ò\x06ÔåÌ/\x14ÈîYÎdK®w\x07'%\x14ae\x97¸\x84ýúy<\xad")
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:22] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03X;Û\x87&¤ù:,Ô-\x9e\x15uIJidsQ\x87;\x82\x05v¸!5ã\x8eüü \x88\x0f>\x9e÷\x85\x97¸5\x0b9±\x0bRÄÈ\x83²h3&0ûºæÛ´G¦\x90Qå\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063úú\x00\x00\x00\x17\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x0b\x00\x02\x01\x00þ\x0d\x00º\x00\x00\x01\x00\x01·\x00 `f^\x8a\x18\x02a\x08ìÈ*Ùø\x98RÜ¾H«ÐÔ¶«;ÿµ\x06A\x0903m\x00\x90b>\x8f·ßÊ\x8cÓµ\x0fhDlZ¶Is-Bð¶@<ÃÉ¹B\x90F0\x05ã¶\x94¿Ò\x06ÔåÌ/\x14ÈîYÎdK®w\x07'%\x14ae\x97¸\x84ýúy<­[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:22] code 400, message Bad request version ('\x1162óm\x02@õÉÔ\x8e\x15\x1aRIl')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:22] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03X\x7f\x98ç±ì\x1b\x162\x1e\x1162óm\x02@õÉÔ\x8e\x15\x1aRIl[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:22] code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063êê\x00\x00\x00+\x00\x07\x06\x8a\x8a\x03\x04\x03\x03\x00\x1b\x00\x03\x02\x00\x02\x00')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:22] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x037§)\x09Æ""å·¶Mªqý\x14\x87\x03ðfe\x0f \x8c\x82]KF\x01j\x90\\ò #S×áÉ\x8d6YÜ^Ú\x1f_±\x1d\x9c3\x89\x82!²n\x80\x85±G\x1dhVRHÓ\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063êê\x00\x00\x00+\x00\x07\x06\x8a\x8a\x03\x04\x03\x03\x00\x1b\x00\x03\x02\x00\x02\x00[0m" 400 -
+ERROR:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:22] code 400, message Bad request version ('y»}°Ê&\x03\x16E³KâÙ9\x8eÅJõ')
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:22] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03ñ§G"Òó\x02xãã­\x8dé\x80ÍG¾~5\x125.Âp"\x81Î&Th{» õ£\x86:\x99\x92'ýääw\x9bÈ'F¿00îÌ8Ê|r¶\x86\x9c\x0cx\x94\x16Ë\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x1a\x1a\x00\x00þ\x0d\x01\x1a\x00\x00\x01\x00\x01¶\x00 :\x84ë&P¶¯¨\x16(\x133jYÃµ__³\x8e\x87\x15t "\x9e®´s\x89ð+\x00ðâCrÅ\x0d\x97²²T.X\x1dÒ¦\x8b|%.\x15Rb\x85£\x06ú|:û~!ý\x1d\x14òW\x8bi±\x1aN\x88ãµëÍÜÜ\x10~´#\x913\x7f\x83b\x7fó´'\x15|¢/I\x00E\x80\x14\x84\\g'wg¸\x9eu\x94óWîTø¹²=Øwß¥ä{R\x0f}\x85\x07à\x17îD\x19\x1fÍ\x1cÞã\x10bdø\x08µ^\x96ò\x04´Vÿ\x189áÔJ®£1ØÝ-öú\x17l¿\x07­u\x96ïÛã\x97"o\x8ck\x9cd\x19V\x86\x1d\x16×2]\x91â\x1f\x89±\x88\x9b\x11\x0fl»\x9bòÃUa\x92¬\x9f\x9aC\x92¥)î\x99öòÔßFÍhòÂô\x89\x05¸WrB\\\x01\x90\x0bª%¦\x18B¾\x14X-\x90Ûç\x8cÁ\x09aíàtG\x9due"n\x0f\x826´ï,×Ú\x92à\x00#\x00\x00\x003\x04ï\x04íúú\x00\x01\x00c\x99\x04Àù[t\x95´Ôi\x19öî!£\x7f\x85Ð-"\x05\x055\x17ÜÙú\x9cD\x9cãÙÝßnºØ\x93®$Å+\x932\x08\x04\x01iIz\x88«S­X\x82\x18ò9\x16©o\x0fVL·\x87Ê\x0e©Wí\x8cB\x8a9l\x1eÙc\x03*$\x88\x04\x08r\x0c9JÅl0\x98Å³÷u[ >fá\x00HY=8¥Eµ¬\x9dü´¢,I\x18;ø\x12÷á\x9e±û\x8b¦\x94¯¨£OxÁFÕ[\x86Ö\x87\x07 y»}°Ê&\x03\x16E³KâÙ9\x8eÅJõ[0m" 400 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:30] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:30] "GET /static/bootstrap/htmx/htmx.2.0.3.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:30] "GET /static/bootstrap/htmx/hyperscript.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:30] "GET /static/bootstrap/images/image.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:30] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:15:30] "GET /static/bootstrap/favicon.ico HTTP/1.1" 200 -
+DEBUG:app:Request for input upload received
+DEBUG:app:File type not allowed
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:18:30] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:18:30] "[31m[1mGET /input_upload HTTP/1.1[0m" 405 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:18:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:18:43] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:18:43] "[36mGET /static/bootstrap/htmx/htmx.2.0.3.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:18:43] "[36mGET /static/bootstrap/htmx/hyperscript.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:18:43] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:18:43] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:18:43] "[36mGET /static/bootstrap/favicon.ico HTTP/1.1[0m" 304 -
+DEBUG:app:Request for input upload received
+DEBUG:app:File type not allowed
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:24:52] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:24:52] "[31m[1mGET /input_upload HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:25:13] "[31m[1mGET /input_upload HTTP/1.1[0m" 405 -
+DEBUG:app:Request for favicon received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:25:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\v-kaslesha\\my-flask-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:57:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:57:09] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:57:09] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:57:09] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for input upload received
+DEBUG:app:File type not allowed
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:57:23] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 09:57:23] "[31m[1mGET /input_upload HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\v-kaslesha\\my-flask-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:00:23] "[31m[1mGET /input_upload HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:00:24] "[31m[1mGET /input_upload HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:00:25] "[31m[1mGET /input_upload HTTP/1.1[0m" 405 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:00:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:00:29] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:00:29] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:00:29] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for input upload received
+DEBUG:app:File type not allowed
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:00:39] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:00:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:00:39] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:00:39] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:00:39] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for template download received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:00:43] "[33mGET /template_download HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:01:02] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for input upload received
+DEBUG:app:File type not allowed
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:01:13] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:01:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:01:13] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:01:13] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:01:13] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\v-kaslesha\\my-flask-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:04:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:04:26] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:04:26] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:04:26] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:04:26] "[36mGET /static/bootstrap/favicon.ico HTTP/1.1[0m" 304 -
+DEBUG:app:Request for input upload received
+DEBUG:app:File type not allowed
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:04:34] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:04:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:04:34] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:04:34] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:04:34] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\v-kaslesha\\my-flask-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+DEBUG:app:Request for input upload received
+DEBUG:app:File type not allowed
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:05:24] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:05:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:05:24] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:05:24] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:05:24] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for template download received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:05:34] "[33mGET /template_download HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\v-kaslesha\\my-flask-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:13:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:13:50] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:13:50] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:13:50] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for input upload received
+DEBUG:app:File type not allowed
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:14:16] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:14:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:14:16] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:14:16] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:14:16] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for input upload received
+DEBUG:app:File type not allowed
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:22:02] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:22:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:22:02] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:22:02] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:22:02] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for input upload received
+DEBUG:app:File type not allowed
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:22:48] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:22:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:22:48] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:22:48] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:22:48] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\v-kaslesha\\my-flask-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+DEBUG:app:Request for input upload received
+DEBUG:app:User default_user input saved at uploads\default_user\input.xlsx
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:26:06] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:26:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:26:06] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:26:06] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:26:06] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for template download received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:26:34] "[33mGET /template_download HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\v-kaslesha\\my-flask-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:31:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:31:29] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:31:29] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:31:29] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for input upload received
+DEBUG:app:User default_user input saved at uploads\default_user\input.xlsx
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:31:48] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:31:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:31:48] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:31:48] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:31:48] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for output download received
+ERROR:app:File output.xlsx not found in uploads
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:31:51] "[33mGET /output_download HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:31:54] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for template download received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:31:56] "[33mGET /template_download HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:32:20] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for input upload received
+DEBUG:app:User default_user input saved at uploads\default_user\input.xlsx
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:32:31] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:32:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:32:31] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:32:31] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:32:31] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for input upload received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:34:09] "[35m[1mPOST /input_upload HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:34:09] "GET /input_upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:34:09] "GET /input_upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:34:09] "GET /input_upload?__debugger__=yes&cmd=resource&f=console.png&s=rmwh6qVSYl4pNTZqePPk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:34:09] "GET /input_upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:34:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:34:43] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:34:43] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:34:43] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for input upload received
+DEBUG:app:User default_user input saved at uploads\default_user\input.xlsx
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:35:44] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:35:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:35:44] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:35:44] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:35:44] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for template download received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:36:20] "[33mGET /template_download HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\v-kaslesha\\my-flask-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+DEBUG:app:Request for template download received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:37:52] "[33mGET /template_download HTTP/1.1[0m" 404 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:37:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:37:57] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:37:57] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:37:57] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for template download received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:37:59] "[33mGET /template_download HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:38:03] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:41:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:41:28] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:41:28] "[33mGET /static/images/image.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:41:28] "[36mGET /static/bootstrap/htmx/htmx.2.0.3.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:41:28] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:41:28] "[36mGET /static/bootstrap/htmx/hyperscript.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:41:28] "[33mGET /static/favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:42:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:42:30] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:42:30] "[36mGET /static/bootstrap/htmx/htmx.2.0.3.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:42:30] "[36mGET /static/bootstrap/htmx/hyperscript.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:42:30] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:42:30] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:42:30] "[33mGET /static/bootstrap/favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:42:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:42:37] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:42:37] "[36mGET /static/bootstrap/htmx/htmx.2.0.3.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:42:37] "[36mGET /static/bootstrap/htmx/hyperscript.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:42:37] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:42:37] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for input upload received
+DEBUG:app:User default_user input saved at uploads\default_user\input.xlsx
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:42:46] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:42:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:42:57] "[31m[1mPOST /template_download HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:43:00] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:43:03] "[31m[1mPOST /template_download HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:43:08] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for input upload received
+DEBUG:app:User default_user input saved at uploads\default_user\input.xlsx
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:43:15] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:43:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 10:43:21] "[31m[1mPOST /template_download HTTP/1.1[0m" 405 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+INFO:werkzeug: * Detected change in 'C:\\Users\\v-kaslesha\\my-flask-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+INFO:werkzeug: * Detected change in 'C:\\Users\\v-kaslesha\\my-flask-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+INFO:werkzeug: * Detected change in 'C:\\Users\\v-kaslesha\\my-flask-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:01:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:01:06] "[33mGET /static/bootstrapimages/image.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:01:06] "[36mGET /static/bootstrap/htmx/htmx.2.0.3.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:01:07] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:01:07] "[36mGET /static/bootstrap/htmx/hyperscript.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:01:07] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:01:09] "[31m[1mPOST /template_download HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\v-kaslesha\\my-flask-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:03:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:03:36] "[33mGET /static/bootstrapimages/image.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:03:36] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:03:36] "[36mGET /static/bootstrap/htmx/htmx.2.0.3.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:03:37] "[36mGET /static/bootstrap/htmx/hyperscript.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:03:37] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 410-479-824
+DEBUG:app:Request for template download received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:03:47] "POST /template_download HTTP/1.1" 200 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:03:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:03:52] "[33mGET /static/bootstrapimages/image.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:03:52] "[36mGET /static/bootstrap/htmx/hyperscript.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:03:52] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:03:52] "[36mGET /static/bootstrap/htmx/htmx.2.0.3.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:03:52] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:05:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:05:11] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:05:11] "[36mGET /static/bootstrap/htmx/htmx.2.0.3.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:05:11] "[36mGET /static/bootstrap/htmx/hyperscript.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:05:11] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:05:11] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for input upload received
+DEBUG:app:User default_user input saved at uploads\default_user\input.xlsx
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:05:32] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:05:32] "GET / HTTP/1.1" 200 -
+DEBUG:app:Request for input upload received
+DEBUG:app:User default_user input saved at uploads\default_user\input.xlsx
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:08:14] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:08:14] "GET / HTTP/1.1" 200 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:11:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:11:08] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:11:08] "[36mGET /static/bootstrap/htmx/htmx.2.0.3.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:11:08] "[36mGET /static/bootstrap/htmx/hyperscript.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:11:08] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:11:08] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for input upload received
+DEBUG:app:User default_user input saved at uploads\default_user\input.xlsx
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:11:16] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:11:16] "GET / HTTP/1.1" 200 -
+DEBUG:app:Request for input upload received
+DEBUG:app:User default_user input saved at uploads\default_user\input.xlsx
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:13:11] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:13:11] "GET / HTTP/1.1" 200 -
+DEBUG:app:Request for input upload received
+DEBUG:app:User default_user input saved at uploads\default_user\input.xlsx
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:13:15] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:13:15] "GET / HTTP/1.1" 200 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:13:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:13:28] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:13:28] "[36mGET /static/bootstrap/htmx/htmx.2.0.3.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:13:28] "[36mGET /static/bootstrap/htmx/hyperscript.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:13:28] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:13:28] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for input upload received
+DEBUG:app:User default_user input saved at uploads\default_user\input.xlsx
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:13:37] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:13:37] "GET / HTTP/1.1" 200 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:15:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:15:35] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:15:35] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:15:35] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:19] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:19] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:19] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for input upload received
+DEBUG:app:User default_user input saved at uploads\default_user\input.xlsx
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:27] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:27] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:27] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:27] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:42] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:42] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:42] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for input upload received
+DEBUG:app:User default_user input saved at uploads\default_user\input.xlsx
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:50] "[32mPOST /input_upload HTTP/1.1[0m" 302 -
+DEBUG:app:Request for index page received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:50] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:50] "[36mGET /static/bootstrap/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:50] "[33mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+DEBUG:app:Request for template download received
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 11:16:59] "GET /template_download HTTP/1.1" 200 -
